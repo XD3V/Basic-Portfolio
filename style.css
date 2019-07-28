@@ -23,6 +23,16 @@ a:link
     font-size: 20px;
 }
 
+.box0
+{
+    height: 60%;
+    box-sizing: content-box;
+    box-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .box1
 {
     height: 300px;
@@ -119,8 +129,11 @@ margin-right: 5%;
     background-color: white;
     border-bottom-style: solid;
     border-bottom-color: grey;
+    
   
 }
+
+
 
 .aboutme
 {
@@ -181,4 +194,10 @@ input[type=text], select {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  .space
+  {
+      margin-left: 8%;
+      box-align: center;
   }
